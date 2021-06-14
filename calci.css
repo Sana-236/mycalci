@@ -1,0 +1,71 @@
+* {
+			margin: 0;
+			padding: 0;
+			text-align: center;
+			font-size: 1.25rem;
+			font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+			color: white;
+			border-radius: 4px;
+		}
+
+		body {
+			min-height: 100vh;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+			background-color: #212121;
+			background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(bg.png);
+		}
+
+		body>h3 {
+			padding: .5rem;
+			font-size: 1rem;
+			font-weight: bold;
+		}
+
+		table tr td {
+			width: 1px;
+			height: 1px;
+		}
+
+		table tr td input {
+			padding: .75rem .8rem;
+			text-align: end;
+			background-color: #212121;
+			border: 6px solid #006652;
+
+		}
+
+		table tr td button {
+			width: 100%;
+			height: 100%;
+			padding: .5rem;
+			background-color: #424242;
+			border: 4px solid transparent;
+			border-radius: 50%;
+	        border-width: 0;
+		}
+
+		table tr td button:hover {
+			cursor: pointer;
+			border: 2px solid #BDBDBD;
+		}
+
+		table tr td .cl-button {
+			background-color: #880E4F;
+		}
+
+		table tr td .op-button {
+			background-color: #616161;
+		}
+
+		table tr td .ed-button {
+			background-color: #455A64;
+		}
+		.copyright p {
+    margin-top: 1.2rem;
+	color: #ffffff;
+	text-align: center;
+    font-size: .9rem;
+}
